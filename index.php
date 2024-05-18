@@ -35,7 +35,7 @@
                     </form>
 
                     <div class="login-signup">
-                        <p>No eres un niembro? <a class="link" href="registro1.php">Registrate aquí!</a></p>
+                        <p>No eres un niembro aún? <a class="link" href="registro1.php">Registrate aquí!</a></p>
                     </div>
                 </div>                               
 
