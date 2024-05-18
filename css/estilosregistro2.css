@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/imagen.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+}
+
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+
+.container .formulario{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    
+}
+
+.container .formulario .title{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #40bef4;
+    position: static;
+}
+
+
+.formulario .input-field-button {
+
+    margin-top: 15px;
+    align-items: center;
+    
+
+}
+.formulario .input-field-button input{
+
+    background-color: #40bef4;
+    border: none;
+    width: 93%;
+    height: 70px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
+
+
+.container .link-signup{
+    margin-top: 5px;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.formulario .input-field2 {
+
+    padding-top: 7px;
+    width: 95%;
+
+}
+
+.input-field2 p{
+
+    color: #40bef4;
+    font-weight: 520;
+    
+    
+
+}
+.container .input-field3{
+
+    padding-bottom: 1px;
+    margin-top: 10px;
+    
+
+}
+
+.input-field3 input{
+
+    width: 92%;
+    height: 40px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

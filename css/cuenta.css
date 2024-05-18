@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/imagen.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+    width: 100%;
+    margin-top: 90px;
+    border-radius: 10px;
+}
+
+.container .formulario{
+
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+}
+
+.container .formulario .title{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #40bef4;
+    position: static;
+}
+
+.formulario .input-field{
+
+    margin-top: 15px;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+.input-field input{
+
+    padding-left: 10px;
+    font-size: 16px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+.formulario .input-field-button {
+
+    margin: 20px 0px;    
+
+}
+.formulario .input-field-button input{
+
+    background-color: #40bef4;
+    border: none;
+    width: 100%;
+    height: 58px;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3 ease;
+
+}
+
+
+.header{
+
+    background-color: #40bef4;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    
+
+}
+
+.nav {
+
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    align-items: center;
+
+ 
+
+}
+
+.nav-link {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo{
+
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 60px;
+    
+}
+
+.menu-nav{
+
+    flex-direction: column;
+    margin-right: 20px;
+    list-style: none;
+    background-color: #034574;
+    position: fixed;
+    left: 0;
+    top: 73px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-top: 17px;
+
+    height: calc(100% - 60px);
+    overflow: auto;
+
+    left: 100%;
+    transition: 0.3s;
+    
+
+}
+
+.nav-menu-item{
+
+    font-size: 18px;
+    line-height: 80px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.menu-nav:hover{
+
+    background-color: none;
+    color: #40bef4;
+
+}
+
+.menu-nav{
+
+    padding: 9px 12px;
+
+
+}
+
+
+
+.menu-nav_visible {
+
+    left: 0;
+
+}
+
+h1{
+
+    font-size: 30px;
+    color: #40bef4;
+    text-align: center;
+    
+
+}
+
+.cuenta div{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+
+
+}
+
+.formulario h2{
+
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 3px;
+    margin-bottom: -5px;
+}
+
